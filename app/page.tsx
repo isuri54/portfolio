@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Content() {
   return (
     <>
-    <section id='hero' className="min-h-screen flex items-center justify-center bg-blue-200">
+    <section id='hero' className="min-h-screen flex items-center justify-center bg-gradient-to-r from-cyan-100 via-sky-300 to-sky-400">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12">
           
@@ -127,6 +127,111 @@ export default function Content() {
           </div>
         </div>
       </section>
+
+      <section id="skills" className="py-20 bg-gray-50 bg-gradient-to-r from-cyan-100 via-sky-300 to-sky-400">
+        <div className="max-w-6xl mx-auto px-6">
+
+          <div className="text-center mb-14">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+              Skills
+            </h2>
+            <div className="mt-3 mx-auto h-1 w-20 bg-blue-600 rounded"></div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <div className="rounded-2xl border border-gray-200 bg-white p-8">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-100 text-blue-600 text-xl">
+                  {'</>'}
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900">
+                  Programming Languages
+                </h3>
+              </div>
+
+              <div className="flex flex-wrap gap-3">
+                {['JavaScript', 'TypeScript', 'Python', 'Dart', 'C#', 'Java'].map(skill => (
+                  <span
+                    key={skill}
+                    className="rounded-full bg-gray-100 px-4 py-2 text-sm text-gray-700"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="rounded-2xl border border-gray-200 bg-white p-8">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-100 text-blue-600 text-xl">
+                  📚
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900">
+                  Frameworks & Libraries
+                </h3>
+              </div>
+
+              <div className="flex flex-wrap gap-3">
+                {['TensorFlow', 'FastAPI', 'React', 'Node.js', 'Express', 'Next.js', 'Angular', 'TailwindCSS', 'Flutter', 'React Native', '.Net'].map(skill => (
+                  <span
+                    key={skill}
+                    className="rounded-full bg-gray-100 px-4 py-2 text-sm text-gray-700"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="rounded-2xl border border-gray-200 bg-white p-8">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-100 text-blue-600 text-xl">
+                  🗄️
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900">
+                  Databases
+                </h3>
+              </div>
+
+              <div className="flex flex-wrap gap-3">
+                {['MongoDB', 'Firebase', 'PostgreSQL', 'MySQL',].map(skill => (
+                  <span
+                    key={skill}
+                    className="rounded-full bg-gray-100 px-4 py-2 text-sm text-gray-700"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="rounded-2xl border border-gray-200 bg-white p-8">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-100 text-blue-600 text-xl">
+                  ⚙️
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900">
+                  Tools & DevOps
+                </h3>
+              </div>
+
+              <div className="flex flex-wrap gap-3">
+                {['Git', 'Docker', 'CI/CD', 'Postman'].map(skill => (
+                  <span
+                    key={skill}
+                    className="rounded-full bg-gray-100 px-4 py-2 text-sm text-gray-700"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
     </>
   );
 }
