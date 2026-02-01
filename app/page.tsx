@@ -232,6 +232,240 @@ export default function Content() {
         </div>
       </section>
 
+      <section id="projects" className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-6">
+
+          <div className="text-center mb-14">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+              Projects
+            </h2>
+            <div className="mt-3 mx-auto h-1 w-20 bg-blue-600 rounded"></div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <div className="rounded-2xl border border-gray-200 bg-white p-6 flex flex-col justify-between hover:shadow-lg transition">
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900">
+                  Service Booking Platform
+                </h3>
+
+                <p className="mt-3 text-gray-600 text-sm leading-relaxed">
+                  A full-stack service booking web application with role-based authentication,
+                  booking management, real-time chat, and effective provider profile management.
+                </p>
+
+                <p className="mt-6 text-sm font-medium text-gray-700">Tech Stack:</p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {['React', 'Node.js', 'Express', 'TailwindCSS', 'MongoDB', 'Docker', 'CI pipeline'].map(tech => (
+                    <span
+                      key={tech}
+                      className="rounded-md bg-blue-50 px-3 py-1 text-xs text-blue-700"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mt-6 flex gap-4">
+                <a
+                  href="#"
+                  className="flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium hover:bg-gray-100 transition"
+                >
+                  🐙 GitHub
+                </a>
+                <a
+                  href="#"
+                  className="flex-1 flex items-center justify-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 transition"
+                >
+                  🔗 Demo
+                </a>
+              </div>
+            </div>
+
+            <div className="rounded-2xl border border-gray-200 bg-white p-6 flex flex-col justify-between hover:shadow-lg transition">
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900">
+                  Skill Exchange Mobile App
+                </h3>
+
+                <p className="mt-3 text-gray-600 text-sm leading-relaxed">
+                  Cross-platform mobile app for exchange skills with
+                  mentor matching, scheduling, in-app chat and community features.
+                </p>
+
+                <p className="mt-6 text-sm font-medium text-gray-700">Tech Stack:</p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {['Flutter', 'Firebase', 'Cloud Firestore'].map(tech => (
+                    <span
+                      key={tech}
+                      className="rounded-md bg-blue-50 px-3 py-1 text-xs text-blue-700"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mt-6">
+                <a
+                  href="#"
+                  className="flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium hover:bg-gray-100 transition"
+                >
+                  🐙 GitHub
+                </a>
+              </div>
+            </div>
+
+            <div className="rounded-2xl border border-gray-200 bg-white p-6 flex flex-col justify-between hover:shadow-lg transition">
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900">
+                  Interview Success Score Prediction System
+                </h3>
+
+                <p className="mt-3 text-gray-600 text-sm leading-relaxed">
+                  Machine learning model to predict interview success score for IT candidates with a clean web application.
+                </p>
+
+                <p className="mt-6 text-sm font-medium text-gray-700">Tech Stack:</p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {['Python', 'FastAPI', 'RandomForest', 'Angular', 'Docker', 'CI pipeline'].map(tech => (
+                    <span
+                      key={tech}
+                      className="rounded-md bg-blue-50 px-3 py-1 text-xs text-blue-700"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mt-6 flex gap-4">
+                <a
+                  href="#"
+                  className="flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium hover:bg-gray-100 transition"
+                >
+                  🐙 GitHub
+                </a>
+                <a
+                  href="#"
+                  className="flex-1 flex items-center justify-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 transition"
+                >
+                  🔗 Demo
+                </a>
+              </div>
+            </div>
+
+            <div className="rounded-2xl border border-gray-200 bg-white p-6 flex flex-col justify-between hover:shadow-lg transition">
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900">
+                  Mobile App to Book Appointments with Veterinarians
+                </h3>
+
+                <p className="mt-3 text-gray-600 text-sm leading-relaxed">
+                  Cross-platform mobile application to book appointments with vets, role-based user authentication, and search vets.
+                </p>
+
+                <p className="mt-6 text-sm font-medium text-gray-700">Tech Stack:</p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {['Flutter', 'Firebase', 'Cloud Firestore'].map(tech => (
+                    <span
+                      key={tech}
+                      className="rounded-md bg-blue-50 px-3 py-1 text-xs text-blue-700"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mt-6 flex gap-4">
+                <a
+                  href="#"
+                  className="flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium hover:bg-gray-100 transition"
+                >
+                  🐙 GitHub
+                </a>
+              </div>
+            </div>
+
+            <div className="rounded-2xl border border-gray-200 bg-white p-6 flex flex-col justify-between hover:shadow-lg transition">
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900">
+                  E-Commerce Mobile App
+                </h3>
+
+                <p className="mt-3 text-gray-600 text-sm leading-relaxed">
+                  E-Commerce mobile app with effective product management, cart, favourites, and order history.
+                </p>
+
+                <p className="mt-6 text-sm font-medium text-gray-700">Tech Stack:</p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {['TypeScript', 'React Native', 'Zustand'].map(tech => (
+                    <span
+                      key={tech}
+                      className="rounded-md bg-blue-50 px-3 py-1 text-xs text-blue-700"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mt-6 flex gap-4">
+                <a
+                  href="#"
+                  className="flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium hover:bg-gray-100 transition"
+                >
+                  🐙 GitHub
+                </a>
+              </div>
+            </div>
+
+            <div className="rounded-2xl border border-gray-200 bg-white p-6 flex flex-col justify-between hover:shadow-lg transition">
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900">
+                  Tomato excess harvest prediction and management system
+                </h3>
+
+                <p className="mt-3 text-gray-600 text-sm leading-relaxed">
+                  An ANN model to predict excess harvest, with a web application to coordinate harvest.
+                </p>
+
+                <p className="mt-6 text-sm font-medium text-gray-700">Tech Stack:</p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {['Python', 'FastAPI', 'TensorFlow', 'JavaScript', 'React.js', 'Node.js', 'Express', 'MongoDB'].map(tech => (
+                    <span
+                      key={tech}
+                      className="rounded-md bg-blue-50 px-3 py-1 text-xs text-blue-700"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mt-6 flex gap-4">
+                <a
+                  href="#"
+                  className="flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium hover:bg-gray-100 transition"
+                >
+                  🐙 GitHub
+                </a>
+                <a
+                  href="#"
+                  className="flex-1 flex items-center justify-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 transition"
+                >
+                  🔗 Demo
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
     </>
   );
 }
