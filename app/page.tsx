@@ -632,7 +632,45 @@ export default function Content() {
         </div>
       </section>
 
+      <section id="footer" className="py-10 bg-black">
+        <div className="container mx-auto px-6">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+            
+            <p className="text-center md:text-left text-white text-lg">
+              © 2026 Isuri Dharmarathne. All rights reserved.
+            </p>
 
+            <div className="flex items-center gap-5">
+              <a
+                href="https://www.linkedin.com/in/isuri-dharmarathne/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white p-3 rounded-full border border-gray-700 hover:bg-blue-600 hover:border-blue-600 transition"
+              >
+                <FaLinkedinIn size={18} />
+              </a>
+
+              <a
+                href="https://github.com/isuri54"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white p-3 rounded-full border border-gray-700 hover:bg-gray-800 transition"
+              >
+                <FaGithub size={18} />
+              </a>
+
+              <a
+                href="https://www.facebook.com/your-facebook-username"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white p-3 rounded-full border border-gray-700 hover:bg-blue-700 transition"
+              >
+                <FaFacebookF size={18} />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
