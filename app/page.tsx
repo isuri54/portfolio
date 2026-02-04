@@ -195,7 +195,7 @@ export default function Content() {
               </div>
 
               <div className="flex flex-wrap gap-3">
-                {['MongoDB', 'Firebase', 'PostgreSQL', 'MySQL',].map(skill => (
+                {['MongoDB', 'Cloud Firestore', 'PostgreSQL', 'MySQL',].map(skill => (
                   <span
                     key={skill}
                     className="rounded-full bg-gray-100 px-4 py-2 text-sm text-gray-700"
@@ -460,6 +460,76 @@ export default function Content() {
                   🔗 Demo
                 </a>
               </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="education" className="py-20 bg-gradient-to-r from-cyan-100 via-sky-300 to-sky-400">
+        <div className="max-w-6xl mx-auto px-6">
+
+          {/* Section Header */}
+          <div className="text-center mb-14">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+              Education
+            </h2>
+            <div className="mt-3 mx-auto h-1 w-20 bg-blue-600 rounded"></div>
+          </div>
+
+          {/* Education Card */}
+          <div className="rounded-2xl border border-gray-200 bg-white p-8 shadow-sm">
+
+            {/* Degree Header */}
+            <div className="flex items-start gap-6">
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-blue-100 text-blue-600 text-2xl">
+                🎓
+              </div>
+
+              <div>
+                <h3 className="text-xl md:text-2xl font-semibold text-gray-900">
+                  Bachelor of Science (Hons) Software Engineering
+                </h3>
+
+                <p className="mt-1 text-gray-700 font-medium">
+                  University of Plymouth
+                </p>
+
+                <p className="mt-2 flex items-center gap-2 text-sm text-gray-600">
+                  📅 Expected Graduation: Dec 2026
+                </p>
+              </div>
+            </div>
+
+            <hr className="my-8" />
+
+            {/* Academic Highlights */}
+            <div>
+              <h4 className="flex items-center gap-2 text-lg font-semibold text-gray-900 mb-4">
+                🏅 Academic Highlights
+              </h4>
+
+              <ul className="space-y-3 text-gray-700 text-sm md:text-base">
+                <li className="flex gap-3">
+                  <span className="text-blue-600 mt-1">•</span>
+                  Strong foundation in core CS subjects including Data Structures, Algorithms, OOP, Database Systems, and Software Design
+                </li>
+
+                <li className="flex gap-3">
+                  <span className="text-blue-600 mt-1">•</span>
+                  Completed multiple academic and personal projects using real-world development practices
+                </li>
+
+                <li className="flex gap-3">
+                  <span className="text-blue-600 mt-1">•</span>
+                  Applied Agile concepts, Git-based collaboration, and clean coding principles in coursework
+                </li>
+
+                <li className="flex gap-3">
+                  <span className="text-blue-600 mt-1">•</span>
+                  Actively self-learning modern technologies and best practices through hands-on projects and documentation
+                </li>
+              </ul>
             </div>
 
           </div>
