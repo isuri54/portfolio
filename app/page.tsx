@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { FaLinkedinIn, FaGithub, FaFacebookF } from "react-icons/fa";
 
 export default function Content() {
   return (
@@ -469,7 +470,6 @@ export default function Content() {
       <section id="education" className="py-20 bg-gradient-to-r from-cyan-100 via-sky-300 to-sky-400">
         <div className="max-w-6xl mx-auto px-6">
 
-          {/* Section Header */}
           <div className="text-center mb-14">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
               Education
@@ -477,10 +477,8 @@ export default function Content() {
             <div className="mt-3 mx-auto h-1 w-20 bg-blue-600 rounded"></div>
           </div>
 
-          {/* Education Card */}
           <div className="rounded-2xl border border-gray-200 bg-white p-8 shadow-sm">
 
-            {/* Degree Header */}
             <div className="flex items-start gap-6">
               <div className="flex h-14 w-14 items-center justify-center rounded-full bg-blue-100 text-blue-600 text-2xl">
                 🎓
@@ -503,7 +501,6 @@ export default function Content() {
 
             <hr className="my-8" />
 
-            {/* Academic Highlights */}
             <div>
               <h4 className="flex items-center gap-2 text-lg font-semibold text-gray-900 mb-4">
                 🏅 Academic Highlights
@@ -535,6 +532,106 @@ export default function Content() {
           </div>
         </div>
       </section>
+
+      <section id="contact" className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-14">
+            <h2 className="text-3xl md:text-4xl font-bold">Get In Touch</h2>
+            <div className="w-20 h-1 bg-blue-600 mx-auto mt-4 rounded"></div>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12">
+            <div>
+              <h3 className="text-2xl font-semibold mb-4">Contact Information</h3>
+              <p className="text-gray-600 mb-8">
+                I'm always open to discussing new opportunities, collaborations, or
+                just having a chat about technology.
+              </p>
+
+              <div className="space-y-4">
+                <div className="flex items-center gap-4 p-4 border rounded-xl shadow-sm">
+                  <div className="p-3 bg-blue-50 rounded-full text-blue-600">
+                    ✉️
+                  </div>
+                  <div>
+                    <p className="text-sm text-gray-500">Email</p>
+                    <p className="font-medium">ipabasara93@gmail.com</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-4 p-4 border rounded-xl shadow-sm">
+                  <div className="p-3 bg-blue-50 rounded-full text-blue-600">
+                    🐙
+                  </div>
+                  <div>
+                    <p className="text-sm text-gray-500">GitHub</p>
+                    <a
+                      href="https://github.com/isuri54"
+                      target="_blank"
+                      className="font-medium hover:text-blue-600"
+                    >
+                      github.com/isuri54
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-4 p-4 border rounded-xl shadow-sm">
+                  <div className="p-3 bg-blue-50 rounded-full text-blue-600">
+                    💼
+                  </div>
+                  <div>
+                    <p className="text-sm text-gray-500">LinkedIn</p>
+                    <a
+                      href="https://www.linkedin.com/in/isuri-dharmarathne/"
+                      target="_blank"
+                      className="font-medium hover:text-blue-600"
+                    >
+                      linkedin.com/in/isuri-dharmarathne
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <form className="bg-white p-8 rounded-2xl border shadow-sm space-y-5">
+              <div>
+                <label className="block text-sm font-medium mb-1">Name</label>
+                <input
+                  type="text"
+                  placeholder="Your name"
+                  className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium mb-1">Email</label>
+                <input
+                  type="email"
+                  placeholder="your.email@example.com"
+                  className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium mb-1">Message</label>
+                <textarea
+                  rows={4}
+                  placeholder="Your message..."
+                  className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                className="w-full bg-blue-600 text-white py-3 rounded-lg font-medium hover:bg-blue-700 transition flex items-center justify-center gap-2"
+              >
+                ✈️ Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
 
     </>
   );
