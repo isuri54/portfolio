@@ -4,7 +4,7 @@ import { FaLinkedinIn, FaGithub, FaFacebookF } from "react-icons/fa";
 export default function Content() {
   return (
     <>
-    <section id='hero' className="min-h-screen flex items-center justify-center bg-gradient-to-r from-cyan-100 via-sky-300 to-sky-400">
+    <section id='hero' className="relative min-h-screen flex items-center justify-center bg-gradient-to-r from-cyan-100 via-sky-300 to-sky-400">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12">
           
@@ -13,12 +13,12 @@ export default function Content() {
               Isuri Dharmarathne
             </h1>
 
-            <h2 className="mt-4 text-lg text-gray-700">
-              Full Stack & Mobile Developer
+            <h2 className="mt-4 text-3xl text-gray-700">
+              Full Stack & Mobile Developer <br></br> <br></br> 
             </h2>
 
-            <p className="mt-3 text-gray-600 max-w-xl">
-              Building scalable solutions and turning ideas into elegant code
+            <p className="mt-3 text-xl text-gray-600 max-w-xl">
+              Passionate Software Engineering undergraduate <br></br> with a strong interest in building reliable, user-focused applications and learning modern technologies through hands-on development.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4 sm:justify-center md:justify-start">
@@ -53,6 +53,14 @@ export default function Content() {
 
         </div>
       </div>
+
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center text-gray-700 animate-bounce">
+        <span className="text-sm mb-2">Scroll</span>
+        <div className="w-6 h-10 border-2 border-gray-700 rounded-full flex justify-center">
+          <div className="w-1 h-3 bg-gray-700 rounded-full mt-2"></div>
+        </div>
+      </div>
+
     </section>
 
     <section id='about' className="py-20 bg-white">
