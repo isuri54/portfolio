@@ -4,6 +4,42 @@ import { FaLinkedinIn, FaGithub, FaFacebookF } from "react-icons/fa";
 export default function Content() {
   return (
     <>
+    <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="flex items-center justify-between h-16">
+        
+          <a
+            href="#hero"
+            className="text-xl font-bold text-gray-900 hover:text-blue-600 transition"
+          >
+            Isuri.dev
+          </a>
+
+          <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700">
+            <a href="#hero" className="hover:text-blue-600 transition">
+              Home
+            </a>
+            <a href="#about" className="hover:text-blue-600 transition">
+              About
+            </a>
+            <a href="#skills" className="hover:text-blue-600 transition">
+              Skills
+            </a>
+            <a href="#projects" className="hover:text-blue-600 transition">
+              Projects
+            </a>
+            <a href="#education" className="hover:text-blue-600 transition">
+              Education
+            </a>
+            <a href="#contact" className="hover:text-blue-600 transition">
+              Contact
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
     <section id='hero' className="relative min-h-screen flex items-center justify-center bg-gradient-to-r from-cyan-100 via-sky-300 to-sky-400">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12">
@@ -544,7 +580,6 @@ export default function Content() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
             
-            {/* Certification Card */}
             <a
               href="/certificates/flutter.pdf"
               target="_blank"
@@ -564,7 +599,6 @@ export default function Content() {
               </p>
             </a>
 
-            {/* Certification Card */}
             <a
               href="/certificates/AI.pdf"
               target="_blank"
@@ -584,7 +618,6 @@ export default function Content() {
               </p>
             </a>
 
-            {/* Certification Card */}
             <a
               href="/certificates/atari certificate.pdf"
               target="_blank"
