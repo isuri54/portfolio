@@ -539,6 +539,131 @@ export default function Content() {
 
           </div>
         </div>
+
+        <div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+            
+            {/* Certification Card */}
+            <a
+              href="/certificates/flutter.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl border border-gray-200 bg-white p-6 hover:shadow-lg transition group"
+            >
+              <h5 className="text-base font-semibold text-gray-900 group-hover:text-blue-600">
+                Flutter Development Certification
+              </h5>
+
+              <p className="mt-2 text-sm text-gray-600">
+                LinkedIn Learning
+              </p>
+
+              <p className="mt-3 text-sm text-blue-600 font-medium">
+                View Certificate →
+              </p>
+            </a>
+
+            {/* Certification Card */}
+            <a
+              href="/certificates/AI.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl border border-gray-200 bg-white p-6 hover:shadow-lg transition group"
+            >
+              <h5 className="text-base font-semibold text-gray-900 group-hover:text-blue-600">
+                Artificial Intelligence and Machine Learning Foundations
+              </h5>
+
+              <p className="mt-2 text-sm text-gray-600">
+                LinkedIn Learning
+              </p>
+
+              <p className="mt-3 text-sm text-blue-600 font-medium">
+                View Certificate →
+              </p>
+            </a>
+
+            {/* Certification Card */}
+            <a
+              href="/certificates/atari certificate.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl border border-gray-200 bg-white p-6 hover:shadow-lg transition group"
+            >
+              <h5 className="text-base font-semibold text-gray-900 group-hover:text-blue-600">
+                Java Software Engineering
+              </h5>
+
+              <p className="mt-2 text-sm text-gray-600">
+                ATARI City Campus
+              </p>
+
+              <p className="mt-3 text-sm text-blue-600 font-medium">
+                View Certificate →
+              </p>
+            </a>
+
+            <a
+              href="/certificates/react.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl border border-gray-200 bg-white p-6 hover:shadow-lg transition group"
+            >
+              <h5 className="text-base font-semibold text-gray-900 group-hover:text-blue-600">
+                React Development
+              </h5>
+
+              <p className="mt-2 text-sm text-gray-600">
+                LinkedIn Learning
+              </p>
+
+              <p className="mt-3 text-sm text-blue-600 font-medium">
+                View Certificate →
+              </p>
+            </a>
+
+            <a
+              href="/certificates/python.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl border border-gray-200 bg-white p-6 hover:shadow-lg transition group"
+            >
+              <h5 className="text-base font-semibold text-gray-900 group-hover:text-blue-600">
+                Python Fundamentals
+              </h5>
+
+              <p className="mt-2 text-sm text-gray-600">
+                University of Moratuwa
+              </p>
+
+              <p className="mt-3 text-sm text-blue-600 font-medium">
+                View Certificate →
+              </p>
+            </a>
+
+            <a
+              href="/certificates/web.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl border border-gray-200 bg-white p-6 hover:shadow-lg transition group"
+            >
+              <h5 className="text-base font-semibold text-gray-900 group-hover:text-blue-600">
+                Web Development
+              </h5>
+
+              <p className="mt-2 text-sm text-gray-600">
+                University of Moratuwa
+              </p>
+
+              <p className="mt-3 text-sm text-blue-600 font-medium">
+                View Certificate →
+              </p>
+            </a>
+
+          </div>
+        </div>
+
       </section>
 
       <section id="contact" className="py-20 bg-white">
