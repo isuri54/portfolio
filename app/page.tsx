@@ -315,7 +315,7 @@ export default function Content() {
 
               <div className="mt-6 flex gap-4">
                 <a
-                  href="#"
+                  href="https://github.com/isuri54/servicehub"
                   className="flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium hover:bg-gray-100 transition"
                 >
                   🐙 GitHub
@@ -355,7 +355,7 @@ export default function Content() {
 
               <div className="mt-6">
                 <a
-                  href="#"
+                  href="https://github.com/isuri54/skill-bridge"
                   className="flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium hover:bg-gray-100 transition"
                 >
                   🐙 GitHub
@@ -388,7 +388,7 @@ export default function Content() {
 
               <div className="mt-6 flex gap-4">
                 <a
-                  href="#"
+                  href="https://github.com/isuri54/prepscore"
                   className="flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium hover:bg-gray-100 transition"
                 >
                   🐙 GitHub
@@ -427,7 +427,7 @@ export default function Content() {
 
               <div className="mt-6 flex gap-4">
                 <a
-                  href="#"
+                  href="https://github.com/isuri54/petty"
                   className="flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium hover:bg-gray-100 transition"
                 >
                   🐙 GitHub
@@ -460,7 +460,7 @@ export default function Content() {
 
               <div className="mt-6 flex gap-4">
                 <a
-                  href="#"
+                  href="https://github.com/isuri54/cakeworld"
                   className="flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium hover:bg-gray-100 transition"
                 >
                   🐙 GitHub
@@ -493,7 +493,7 @@ export default function Content() {
 
               <div className="mt-6 flex gap-4">
                 <a
-                  href="#"
+                  href="https://github.com/isuri54/agriscope"
                   className="flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium hover:bg-gray-100 transition"
                 >
                   🐙 GitHub
