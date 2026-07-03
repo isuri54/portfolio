@@ -53,8 +53,11 @@ export default function Content() {
               Isuri Dharmarathne
             </h1>
 
-            <h1 className="mt-4 text-4xl md:text-5xl font-bold text-white">
-              Full Stack Developer <br></br> <br></br> 
+            <h1 className="mt-2 text-4xl md:text-5xl font-bold bg-clip-text text-transparent 
+               bg-gradient-to-r from-white via-blue-400 to-white 
+               bg-[length:200%_100%] animate-text-shimmer relative">
+              Full Stack Developer
+              <br />
             </h1>
 
             <p className="mt-3 text-xl text-gray-300 max-w-xl">
