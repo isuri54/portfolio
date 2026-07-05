@@ -117,13 +117,17 @@ export default function Content() {
 
           <div className="max-w-3xl mx-auto text-center text-gray-300 text-lg leading-relaxed space-y-6">
             <p className="font-medium">
-                I'm a final-year BSc (Hons) Software Engineering student who loves turning ideas into real, working apps. 
-                I focus on building full-stack web projects and cross-platform mobile experiences that feel solid and ready for users.
+              Final-year BSc (Hons) Software Engineering student and passionate Full-Stack Web Developer. 
+              I specialize in crafting modern, scalable, and high-performance web applications that deliver outstanding user experiences.
             </p>
 
             <p>
-                My go-to tools include the MERN stack, Angular paired with FastAPI, Flutter with Firebase, real-time features using Socket.io, Docker for containerization, and CI/CD pipelines to keep everything clean, tested, and easy to maintain. 
-                Basically, I enjoy taking tricky problems and solving them with code that's clear and reliable.
+              I excel in building end-to-end web solutions using the MERN stack and modern JavaScript ecosystem. 
+              While I also develop cross-platform mobile applications, my main focus and expertise lie in creating robust, production-ready web platforms.
+            </p>
+
+            <p>
+              From intuitive frontends to well-architected backends with real-time features, I love solving complex problems with clean, maintainable, and efficient code.
             </p>
           </div>
 
