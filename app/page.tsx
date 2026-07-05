@@ -229,7 +229,7 @@ export default function Content() {
               </div>
 
               <div className="flex flex-wrap gap-3">
-                {['TensorFlow', 'FastAPI', 'React', 'Node.js', 'Express', 'Next.js', 'Angular', 'TailwindCSS', 'Flutter', 'React Native', '.Net'].map(skill => (
+                {['TensorFlow', 'FastAPI', 'React', 'Vue.js', 'Next.js', 'Angular', 'Node.js', 'Express', 'NestJS', 'TailwindCSS', 'Flutter', 'React Native', '.Net', 'Spring'].map(skill => (
                   <span
                     key={skill}
                     className="rounded-full bg-zinc-900 px-4 py-2 text-sm text-gray-300"
@@ -273,7 +273,7 @@ export default function Content() {
               </div>
 
               <div className="flex flex-wrap gap-3">
-                {['Git', 'Docker', 'CI/CD', 'Postman'].map(skill => (
+                {['Git', 'GitHub', 'Docker', 'CI/CD pipelines', 'GitHub Actions', 'Postman'].map(skill => (
                   <span
                     key={skill}
                     className="rounded-full bg-zinc-900 px-4 py-2 text-sm text-gray-300"
@@ -776,7 +776,7 @@ export default function Content() {
                 <input
                   type="text"
                   placeholder="Your name"
-                  className="w-full px-4 py-3 bg-black border border-cyan-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-400 text-white"
+                  className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-400 text-white"
                 />
               </div>
 
