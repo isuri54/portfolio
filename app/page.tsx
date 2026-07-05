@@ -141,7 +141,7 @@ export default function Content() {
                 Full-Stack Web
               </h3>
               <p className="mt-2 text-sm text-gray-400">
-                MERN stack, Angular, and Python backends for scalable apps
+                MERN stack, Angular, Vue.js, and Python backends for scalable apps
               </p>
             </div>
 
@@ -165,7 +165,7 @@ export default function Content() {
                 DevOps Practices
               </h3>
               <p className="mt-2 text-sm text-gray-400">
-                Docker containerization, CI/CD pipelines, and automated testing
+                Docker containerization, CI/CD pipelines, AWS, and automated testing
               </p>
             </div>
 
@@ -177,7 +177,7 @@ export default function Content() {
                 Machine Learning
               </h3>
               <p className="mt-2 text-sm text-gray-400">
-                TensorFlow models, prediction systems, and data analytics
+                TensorFlow models, Scikit-learn models, prediction systems, and data analytics
               </p>
             </div>
           </div>
